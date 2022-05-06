@@ -1,1 +1,2 @@
 # Assign-04-HTML-PizzaOrder
+[![GitHub's Super Linter](https://github.com/ICS2O-Programming-BraydenM/Assign-04-HTML-PizzaOrder/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/ICS2O-Programming-BraydenM/Assign-04-HTML-PizzaOrder/actions)
