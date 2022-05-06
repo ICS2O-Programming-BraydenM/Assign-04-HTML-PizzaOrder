@@ -1,0 +1,92 @@
+/* Created by: Brayden MacMillan
+* Created on: March 13 2022
+* This CSS file defines the style for index.html
+* ICS2O-Assign-01-HTML-CSS-JS
+*/
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  background-color: #c4e9ee;
+  font-family: times new roman;
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #1fa6a8, 0 0 20px #a994db, 0 0 30px #74aaa6, 0 0 40px #4d9da8, 0 0 50px #407587, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #86cabf, 0 0 30px #ff4da6, 0 0 40px #57a89b, 0 0 50px #64a0af, 0 0 60px #e7e887, 0 0 70px #bd3278, 0 0 80px #b2e6e3;
+  }
+
+h2.small {
+  font-variant: small-caps;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h1 {
+	background-color: rgb(255, 192, 203);
+	color: hsl(145, 63%, 32%);
+	padding: 40px;
+	text-align: center;
+
+  h2 style="background-color:palevioletred"
