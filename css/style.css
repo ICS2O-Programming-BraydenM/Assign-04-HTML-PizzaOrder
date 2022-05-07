@@ -90,3 +90,13 @@ h1 {
 	text-align: center;
 
   h2 style="background-color:palevioletred"
+
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #EE82EE;
+  background:
+    url('./images/lanaart.jpg') bottom right 15% no-repeat #46B6AC;
+}
