@@ -30,9 +30,50 @@
     <h2 style="background-color:white"><font face="Times New Roman"><div class="centered">Place your order</div></font></h2>
     </div>
 
- <!-- Glowing text -->
+<!-- Glowing text -->
     <h1 class="glow">Please place your order below.</h1>
 
+<!-- adding a drop down menu -->
+  <center>
+		<label for="size">Choose your pizza size!</label>
+			<select name="size" id="size">
+				  <option value="">Pizza sizes</option>
+				  <option value="Small">Small/Piccolo</option>
+					<option value="Medium">Medium/Medio</option>
+					<option value="Large">Large/Grande</option>
+			</select>
+  </center>
+				<br><br>
+<!-- adding check boxes for toppings -->
+    <center>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> Cheese/Formaggio</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2">Black Olives/Oliva Nera</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> Spicy sausage/Salame Piccante</label><br>
+<input type="checkbox" id="vehicle4" name="vehicle4" value="Boat">
+<label for="vehicle4">Mushrooms/Fungo</label><br>
+<input type="checkbox" id="vehicle5" name="vehicle5" value="Boat">
+<label for="vehicle5">Garlic Sauce/Salsa All'aglio</label><br>
+  <br><br>
+</center>
+
+<!-- Radio button -->
+      <center><h5 style="color:teal"><font face="Times New Roman">Would you like a side order of our finest red wine, made from the Italian vineyards of Barolo & Barbaresco?</font></h5></center>
+    <center>
+        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+          <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+          <span class="mdl-radio__label">No thank you.</span>
+        </label>
+        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+          <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+          <span class="mdl-radio__label">Yes, please.</span>
+        </label>
+    </center>
+    <br>
+    <br>
+<center><input type="submit" value="Display Cost"></center>
 <!-- Link back to home page -->
     <center>
       <h6 style="color:black">Here is the link that will take you back to to our <a href="./index.html">Home Page</a>
