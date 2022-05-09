@@ -37,7 +37,7 @@ function displayCost() {
     else if ((pizzaSize == "large") && (crustType == "stuffed")) {
       baseCost = 22.87;
     }
-
+  
   // check all check boxes to see how many there are, from https://www.techiedelight.com/count-number-check-boxes-javascript/
  
     let numberOfCheckboxes = document.querySelectorAll('input[type="checkbox"]:checked');
@@ -63,5 +63,7 @@ function displayCost() {
   let subTotal = baseCost + toppingCost + wineCost
   let tax = subTotal * HST 
   let total = subTotal + tax
-  
+
+// display results back to user
+  document.getElementById('display-results').innerHTML = "Your subtotal is " + "$" + subTotal.toFixed(2) + " Your tax amount is " + "$" + tax.toFixed(2) + "Your total is " + "$" + total.toFixed(2) + "Thank you for ordering from us! We hope to see you again soon :)";
 }
