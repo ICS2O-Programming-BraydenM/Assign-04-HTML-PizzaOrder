@@ -26,6 +26,7 @@
   <body>
     <script src="./js/script.js"></script>
 
+<!-- getting text over image -->
     <div class="container">
     <img src="./images/restaurant.jpg" alt="Restaurant" style="width:100%;">
     <h2 style="background-color:white"><font face="Times New Roman"><div class="centered">Place your order</div></font></h2>
@@ -36,28 +37,28 @@
     
 <!-- adding  a JavaScript button that calculates cost -->
 			<form action="javascript:displayCost()">			
-        <!-- adding a drop down menu -->
+<!-- adding a drop down menu -->
           <center>
-        		<label for="size">Choose your pizza size!</label>
-        			<select name="size" id="size">
-        				  <option value="">Pizza sizes</option>
-        				  <option value="small">Small/Piccolo</option>
-        					<option value="medium">Medium/Medio</option>
-        					<option value="large">Large/Grande</option>
-        			</select>
+        <label for="size">Choose your pizza size!</label>
+        	<select name="size" id="size">
+          	<option value="options">Pizza sizes</option>
+          	<option value="small">Small/Piccolo</option>
+          	<option value="medium">Medium/Medio</option>
+          	<option value="large">Large/Grande</option>
+        	</select>
           </center>
         				<br><br>
-            <!-- adding a drop down menu -->
+<!-- adding a drop down menu -->
           <center>
         		<label for="crust">Choose your crust type!!</label>
-        			<select name="crust" id="crust">
-        				  <option value="">Crust type</option>
-        					<option value="flatbread">Flatbread/Focaccia Azzima</option>
-        					<option value="stuffed">Stuffed Crust/Crosta Farcito</option>
-        			</select>
+        		<select name="crust" id="crust">
+          		<option value="option">Crust type</option>
+              <option value="flatbread">Flatbread/Focaccia Azzima</option>
+              <option value="stuffed">Stuffed Crust/Crosta Farcito</option>
+        		</select>
           </center>
         				<br><br>
-        <!-- adding check boxes for toppings -->
+<!-- adding check boxes for toppings -->
             <center><h3>Choose your toppings.</h3></center>
             <center>
             <input type="checkbox" id="topping1" name="topping1" value="topping1">
@@ -73,17 +74,17 @@
             <br><br>
             </center>
         
-        <!-- Radio button -->
+<!-- Radio button -->
               <center><h5 style="color:teal"><font face="Times New Roman">Would you like a side order of our finest red wine, made from the Italian vineyards of Barolo & Barbaresco?</font></h5></center>
             <center>
-                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
-                  <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
-                  <span class="mdl-radio__label">No thank you.</span>
-                </label>
-                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
-                  <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
-                  <span class="mdl-radio__label">Yes, please.</span>
-                </label>
+            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+            <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+            <span class="mdl-radio__label">No thank you.</span>
+            </label>
+            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+            <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+            <span class="mdl-radio__label">Yes, please.</span>
+            </label>
             </center>
             <br>
             <br>
@@ -91,10 +92,13 @@
       </form>
 
 <!-- display results to user -->
-    <div id="display-results"></div>
+		<div id="display-results">
+		</div>
     
 <!-- Link back to home page -->
     <center>
       <h6 style="color:black">Here is the link that will take you back to to our <a href="./index.html">Home Page</a>
     </h6>
    </center>
+  </body>
+</html>
