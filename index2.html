@@ -34,6 +34,45 @@
 
 <!-- Glowing text -->
     <h1 class="glow">Please place your order below.</h1>
+
+<!-- adding an MDL table to show menu and prices -->
+    <center>
+    <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">Pizza Size</th>
+      <th>Quantity</th>
+      <th>Price for Flatbread</th>
+      <th>Price for Stuffed Crust</th>
+      <th>Price for a side of Wine</th>
+      <th>Topping price (same $ for all)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Small/Piccolo</td>
+      <td>1</td>
+      <td>$7.79</td>
+      <td>$10.79</td>
+      <td>$27</td>
+      <td>$0.50</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Medium/Medio</td>
+      <td>1</td>
+      <td>$14.25</td>
+      <td>$17.25</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Large/Grande</td>
+      <td>1</td>
+      <td>$19.87</td>
+      <td>$22.87</td>
+    </tr>
+  </tbody>
+</table>
+    </center>
+    <br><br>
     
 <!-- adding  a JavaScript button that calculates cost -->
 			<form action="javascript:displayCost()">			
@@ -92,7 +131,7 @@
       </form>
 
 <!-- display results to user -->
-		<div id="display-results">
+		<br><center><div id="display-results"></center>
 		</div>
     
 <!-- Link back to home page -->

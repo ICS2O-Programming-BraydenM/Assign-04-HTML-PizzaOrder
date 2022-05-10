@@ -65,5 +65,5 @@ function displayCost() {
   let total = subTotal + tax
 
 // display results back to user
-  document.getElementById('display-results').innerHTML = "Your subtotal is " + "$" + subTotal.toFixed(2) + " Your tax amount is " + "$" + tax.toFixed(2) + "Your total is " + "$" + total.toFixed(2) + "Thank you for ordering from us! We hope to see you again soon :)";
+  document.getElementById('display-results').innerHTML = "Your subtotal is " + "$" + subTotal.toFixed(2) + "<br> Your tax amount is " + "$" + tax.toFixed(2) + " <br> Your total is " + "$" + total.toFixed(2) + "<br> Thank you for ordering from us! We hope to see you again soon :)";
 }
