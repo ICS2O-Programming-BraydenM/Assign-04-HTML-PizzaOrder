@@ -1,7 +1,7 @@
 /* Created by: Brayden MacMillan
 * Created on: May 7, 2022
 * This CSS file defines the style for index2.html
-* ICS2O-Assign-04-HTML-FoodOrder
+* ICS2O-Assign-04-HTML-PizzaOrder
 */
 
 .container {
@@ -43,6 +43,11 @@
 
 body {
   background-color: #e3a5d8;
+  font-family: times new roman;
+}
+
+h3 {
+  background-color: mistyrose;
   font-family: times new roman;
 }
 

@@ -18,15 +18,13 @@
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-pink.min.css" />
     <title>Assignment 3</title>
     
-<!-- Link to CSS sheet -->
+<!-- Link to CSS file sheet -->
     <link rel="stylesheet" href="./css/style2.css">
   </head>
-  
-<!-- Getting text over an image --> 
   <body>
+<!-- Link to JS file sheet -->
     <script src="./js/script.js"></script>
-
-<!-- getting text over image -->
+<!-- Getting text over an image --> 
     <div class="container">
     <img src="./images/restaurant.jpg" alt="Restaurant" style="width:100%;">
     <h2 style="background-color:white"><font face="Times New Roman"><div class="centered">Place your order</div></font></h2>
@@ -76,7 +74,7 @@
     
 <!-- adding  a JavaScript button that calculates cost -->
 			<form action="javascript:displayCost()">			
-<!-- adding a drop down menu -->
+<!-- adding a drop down menu for pizza size -->
           <center>
         <label for="size">Choose your pizza size!</label>
         	<select name="size" id="size">
@@ -86,8 +84,8 @@
           	<option value="large">Large/Grande</option>
         	</select>
           </center>
-        				<br><br>
-<!-- adding a drop down menu -->
+        <br><br>
+<!-- adding a drop down menu for crust type -->
           <center>
         		<label for="crust">Choose your crust type!!</label>
         		<select name="crust" id="crust">
@@ -96,7 +94,7 @@
               <option value="stuffed">Stuffed Crust/Crosta Farcito</option>
         		</select>
           </center>
-        				<br><br>
+        <br><br>
 <!-- adding check boxes for toppings -->
             <center><h3>Choose your toppings.</h3></center>
             <center>
@@ -113,7 +111,7 @@
             <br><br>
             </center>
         
-<!-- Radio button -->
+<!-- Radio button asking for a side of wine -->
               <center><h5 style="color:teal"><font face="Times New Roman">Would you like a side order of our finest red wine, made from the Italian vineyards of Barolo & Barbaresco?</font></h5></center>
             <center>
             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
@@ -130,7 +128,7 @@
         <center><input type="submit" value="Display Cost"></center>
       </form>
 
-<!-- display results to user -->
+<!-- display results (cost) to user -->
 		<br><center><div id="display-results"></center>
 		</div>
     
